@@ -25,15 +25,27 @@ The frontend will be available at http://localhost:3000.
    
 ### Backend (React)
 1. Navigate to the backend folder:
+
    cd fastapi-backend
+
+
 2.Create and activate a virtual environment (for Python):
+
   python -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+
 3. Install the backend dependencies:
+
    pip install -r requirements.txt
+
+
 4. Run the FastAPI development server:
+
    uvicorn app.main:app --reload
 The backend will be available at http://localhost:8000.
+
+
 
 Backend API Endpoints:
 1. GET https://backendfastapi-rdsf.onrender.com/todos/  
